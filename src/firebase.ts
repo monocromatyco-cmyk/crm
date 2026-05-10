@@ -12,12 +12,12 @@ import {
 // Using a public Firestore database for single-user PWA sync.
 // Security rules should restrict access in production.
 const firebaseConfig = {
-  apiKey: "AIzaSyDummyKeyForDemo",
-  authDomain: "orbita-crm-sync.firebaseapp.com",
-  projectId: "orbita-crm-sync",
-  storageBucket: "orbita-crm-sync.appspot.com",
-  messagingSenderId: "000000000000",
-  appId: "1:000000000000:web:abcdef1234567890",
+  apiKey: "AIzaSyCuDnX8g2sSJmQo3TtMqOuy7SibYayOtiY",
+  authDomain: "orbita-e1fb5.firebaseapp.com",
+  projectId: "orbita-e1fb5",
+  storageBucket: "orbita-e1fb5.firebasestorage.app",
+  messagingSenderId: "650762738257",
+  appId: "1:650762738257:web:fdc0798ae4af2127acb670",
 };
 
 let db: ReturnType<typeof getFirestore> | null = null;
